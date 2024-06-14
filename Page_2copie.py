@@ -117,11 +117,11 @@ vie_associative = """
 - **<span style='color:blue;'>Représentant des étudiants ALJT Vitry (2024)</span>**  
   - En tant que représentant des étudiants ALJT à Vitry en 2024, j'ai servi en tant que voix des résidents, facilitant la communication entre les étudiants et l'administration de la résidence. J'ai organisé des ateliers et des événements sociaux pour promouvoir l'intégration et le bien-être des résidents, tout en travaillant à résoudre les préoccupations quotidiennes des étudiants.
   
-- **<span style='color:blue;'>Délégué des Masters PSB (2022 - 2023)</span>**  
-  - En tant que délégué des Masters à la PSB, j'ai représenté mes pairs, aidé à organiser des événements académiques et sociaux, et agi comme un lien entre les étudiants et le corps professoral pour résoudre les problèmes académiques et administratifs.
+- **<span style='color:blue;'>Délégué du MSC Data management (2022 - 2023)</span>**  
+  - En tant que délégué des Masters à la PSB, j'ai représenté mes pairs, aidé à organiser des événements académiques, et agi comme un lien entre les étudiants et le corps professoral pour résoudre les problèmes académiques et administratifs.
   
 - **<span style='color:blue;'>Délégué MSc Data Science & Business Analytics (2021 - 2022)</span>**  
-  - En tant que délégué du MSc en Data Science & Business Analytics, j'ai contribué à créer un environnement d'apprentissage collaboratif et inclusif pour mes camarades de classe. J'ai organisé des séances de révision, facilité la communication entre les étudiants et les enseignants, et encouragé la coopération entre les différentes cohortes du programme.
+  - En tant que délégué du MSc en Data Science & Business Analytics, j'ai contribué à créer un environnement d'apprentissage collaboratif et inclusif pour mes camarades de classe. J'ai facilité la communication entre les étudiants et les enseignants, et encouragé la coopération entre les différentes cohortes du programme.
   
 - **<span style='color:blue;'>Président du club sport IHEM (2018 - 2020)</span>**  
   - En tant que président du club sport à l'IHEM, j'ai dirigé une équipe dévouée dans l'organisation d'activités sportives variées pour les étudiants. J'ai recherché des financements, planifié des événements et des tournois interclasses, et promu une culture du sport et du bien-être au sein de la communauté étudiante.
