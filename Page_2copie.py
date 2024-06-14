@@ -1,7 +1,5 @@
 import streamlit as st
 
-
-
 # Informations de profil
 profile = """
 Data Addict, diplômé d’un master data management et certifié expert en stratégie digitale, j’ai acquis au cours de mon parcours une très bonne expérience dans l’analyse de larges variétés de données, dans la recherche et la détection d’insights pertinents ainsi que dans la construction d’outils d’aide à la décision.
