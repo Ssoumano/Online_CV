@@ -71,7 +71,7 @@ experiences = """
 
 # Certifications
 certifications = """
-- Expert en stratégie digitale
+- Expert en stratégie digitale (Digital campus)
 - Concevoir une solution de déploiement de modèle (Microsoft)
 - Concevoir une solution de formation de modèle Machine Learning (Microsoft)
 - Understand Machine learning (DataCamp)
