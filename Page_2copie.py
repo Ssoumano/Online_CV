@@ -11,6 +11,7 @@ Au-delà de mes compétences techniques, j'ai développé un sens aigu de la col
 
 # Formations
 formations = """
+
 - **<span style='color:blue;'>MSC Data management, Efrei Paris / Paris School of Business, 2022-2024</span>**
 
   **<u>Mention :</u>** Bien
@@ -38,6 +39,17 @@ formations = """
 
 # Expériences
 experiences = """
+
+- **<span style='color:blue;'>Consultant chef de projets SIt**, CLAP PARTNERS - Paris, 08/2024 - Aujourd’hui</span>**
+
+  -Analyse des données projets avec suivi des performances et mise en œuvre des actions correctives.
+  -Conception d’indicateurs clés (KPI) et création de tableaux de bord pour un pilotage efficace des budgets projets, de la qualité des données et une prise de décision éclairée.
+  -Gestion des dépassements de projets avec identification des écarts, analyse des causes et recommandations d’amélioration.
+  -Gestion des ressources avec analyse des staffings et planification des besoins prévisionnels.
+  -Organisation des comités projets avec animation des réunions clients et préparation des supports stratégiques.
+  -Suivi, planification et gestion des projets SI avec pilotage des activités, coordination des équipes et respect des délais.
+
+
 - **<span style='color:blue;'>Business analyst**, VWR AVANTOR - Paris, 10/2022 - Aujourd’hui</span>**
 
   - Collecte, traitement et analyse des données business sur 4 pays.
@@ -228,3 +240,4 @@ elif page == "Contact":
     st.title("Contact")
     for key, value in contact_info.items():
         st.write(f"**{key}:** {value}")
+    
