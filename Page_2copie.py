@@ -40,7 +40,7 @@ formations = """
 # Expériences
 experiences = """
 
-- **<span style='color:blue;'>Consultant chef de projets SIt**, CLAP PARTNERS - Paris, 08/2024 - Aujourd’hui</span>**
+- **<span style='color:blue;'>Consultant chef de projets SI **, CLAP PARTNERS - Paris, 08/2024 - Aujourd’hui</span>**
 
   -Analyse des données projets avec suivi des performances et mise en œuvre des actions correctives.
   -Conception d’indicateurs clés (KPI) et création de tableaux de bord pour un pilotage efficace des budgets projets, de la qualité des données et une prise de décision éclairée.
