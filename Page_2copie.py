@@ -1,4 +1,19 @@
 import streamlit as st
+import base64
+from pathlib import Path
+
+# ── PHOTO DE PROFIL ─────────────────────────────────────────────────────────
+def get_base64_image(path: str) -> str:
+    """Encode une image locale en base64 pour l'injecter dans du HTML."""
+    data = Path(path).read_bytes()
+    return base64.b64encode(data).decode()
+
+# Place ta photo dans un dossier "assets" à côté de ce script (assets/seydou.jpg)
+PHOTO_PATH = "assets/seydou.jpg"
+try:
+    photo_b64 = get_base64_image(PHOTO_PATH)
+except FileNotFoundError:
+    photo_b64 = ""
 
 # ── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -130,6 +145,40 @@ font-weight: 400;
 }
 .hero-sub strong { color: #C8D4E8; font-weight: 600; }
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 3.5rem; }
+
+/* ── HERO LAYOUT + PHOTO ── */
+.hero-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 3rem;
+}
+.hero-text { flex: 1; min-width: 0; }
+.hero-photo-wrap {
+flex-shrink: 0;
+position: relative;
+width: 200px;
+height: 200px;
+}
+.hero-photo {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid rgba(79,142,247,0.4);
+box-shadow: 0 8px 40px rgba(79,142,247,0.25);
+}
+.hero-photo-ring {
+position: absolute;
+inset: -10px;
+border-radius: 50%;
+border: 1px solid rgba(79,142,247,0.2);
+}
+@media (max-width: 768px) {
+.hero-content { flex-direction: column-reverse; text-align: center; }
+.hero-photo, .hero-photo-wrap { width: 140px; height: 140px; }
+.hero-actions { justify-content: center; }
+}
 .btn-primary {
 background: #4F8EF7;
 color: white;
@@ -578,8 +627,12 @@ st.markdown("""
 
 
 # ── HERO ─────────────────────────────────────────────────────────────────────
-st.markdown("""
+photo_html = f'<img src="data:image/jpeg;base64,{photo_b64}" class="hero-photo" alt="Seydou Soumano">' if photo_b64 else ''
+
+st.markdown(f"""
 <section class="hero">
+<div class="hero-content">
+<div class="hero-text">
 <div class="hero-badge">🟢 Disponible immédiatement · Île-de-France</div>
 <h1 class="hero-title">
 Data Analyst.<br>
@@ -596,6 +649,12 @@ pas juste des slides.
 <a href="mailto:soumanoseydou@icloud.com" class="btn-primary">📧 Me contacter</a>
 <a href="https://linkedin.com/in/seydou-soumano" class="btn-secondary">🔗 LinkedIn</a>
 <a href="https://github.com/Ssoumano" class="btn-secondary">⚙️ GitHub</a>
+</div>
+</div>
+<div class="hero-photo-wrap">
+<div class="hero-photo-ring"></div>
+{photo_html}
+</div>
 </div>
 </section>
 """, unsafe_allow_html=True)
