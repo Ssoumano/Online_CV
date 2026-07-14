@@ -250,11 +250,12 @@ margin-bottom: 0.3rem;
 letter-spacing: -0.02em;
 }
 .stat-label {
-font-size: 0.75rem;
+font-size: 0.7rem;
 color: #8B9CB8;
 font-weight: 500;
 text-transform: uppercase;
-letter-spacing: 0.05em;
+letter-spacing: 0.04em;
+line-height: 1.4;
 }
 
 /* ── SECTION TITLES ── */
@@ -680,11 +681,11 @@ st.markdown("""
 </div>
 <div class="stat-item">
 <div class="stat-number">98%</div>
-<div class="stat-label">Anomalies corrigées</div>
+<div class="stat-label">Anomalies corrigées · dernière mission</div>
 </div>
 <div class="stat-item">
 <div class="stat-number">+18%</div>
-<div class="stat-label">Clients réactivés</div>
+<div class="stat-label">Clients réactivés · en 3 mois</div>
 </div>
 <div class="stat-item">
 <div class="stat-number">GCP</div>
