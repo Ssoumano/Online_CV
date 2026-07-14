@@ -757,7 +757,7 @@ st.markdown("""
 <div class="exp-role">Consultant Chef de Projets SI & Data Analyst</div>
 <div class="exp-company">Clap Partner · Paris · Industrie, Retail, Luxe</div>
 </div>
-<div class="exp-period">08/2024 – 10/2025 · Alternance</div>
+<div class="exp-period">08/2024 – 10/2025</div>
 </div>
 <ul class="exp-bullets">
 <li>Analyse multi-sources en SQL et Python : détection d'anomalies, identification de tendances et d'opportunités business pour les directions métiers</li>
@@ -1009,22 +1009,6 @@ R Programming (DataCamp)
 <div class="edu-title">MSc Data Management</div>
 <div class="edu-school">Paris School of Business & EFREI</div>
 <div class="edu-mention">Mention Bien · Data gouvernance · ML · Modélisation · Statistiques</div>
-</div>
-</div>
-<div class="edu-item">
-<div class="edu-year">2021–2022</div>
-<div>
-<div class="edu-title">MSc1 Data Scientist & Business Analysis</div>
-<div class="edu-school">EDC Paris Business School</div>
-<div class="edu-mention">Mention Bien · Algorithmie · Finance · Bases de données</div>
-</div>
-</div>
-<div class="edu-item">
-<div class="edu-year">2017–2020</div>
-<div>
-<div class="edu-title">Licence Management des Entreprises</div>
-<div class="edu-school">IHEM · Bamako, Mali</div>
-<div class="edu-mention">Mention Bien · Management · Marketing · Finances</div>
 </div>
 </div>
 </section>
