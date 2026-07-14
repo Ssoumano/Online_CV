@@ -761,7 +761,7 @@ st.markdown("""
 </div>
 <ul class="exp-bullets">
 <li>Analyse multi-sources en SQL et Python : détection d'anomalies, identification de tendances et d'opportunités business pour les directions métiers</li>
-<li><strong>98% des anomalies data corrigées</strong> grâce à des contrôles qualité rigoureux sur 10+ projets SI end-to-end</li>
+<li><strong>98% des anomalies data corrigées</strong> grâce à des contrôles qualité rigoureux sur <strong>10+</strong> projets SI end-to-end</li>
 <li>Conception et maintien de dashboards Power BI pour le pilotage des KPIs de performance</li>
 <li>Animation d'ateliers clients, rédaction de roadmaps et restitution d'insights actionnables en COPROJ/COPIL</li>
 <li>Pilotage de projets en méthode Agile : sprints, reviews, backlog, démos</li>
@@ -782,9 +782,9 @@ st.markdown("""
 <div class="exp-period">10/2022 – 05/2024</div>
 </div>
 <ul class="exp-bullets">
-<li>Analyse de performances commerciales sur 6 000+ clients dans 4 pays via SQL et Python</li>
+<li>Analyse de performances commerciales sur <strong>6 000+</strong> clients dans <strong>4 pays</strong> via SQL et Python</li>
 <li>Modèle de segmentation clients → <strong>+18% de clients réactivés en 3 mois</strong></li>
-<li>Dashboards automatisés (QlikView, Power BI, Excel VBA) utilisés comme référence par 3 équipes sur 4 pays</li>
+<li>Dashboards automatisés (QlikView, Power BI, Excel VBA) utilisés comme référence par <strong>3 équipes</strong> sur <strong>4 pays</strong></li>
 <li><strong>91% de taux de digitalisation atteint</strong> grâce aux analyses et recommandations data</li>
 <li>Restitution d'insights actionnables aux directions commerciales et marketing</li>
 </ul>
@@ -804,7 +804,7 @@ st.markdown("""
 <div class="exp-period">04/2022 – 06/2022</div>
 </div>
 <ul class="exp-bullets">
-<li>Fiabilisation d'une base de <strong>32 000+ entrées</strong> (8 000 modèles de véhicules)</li>
+<li>Fiabilisation d'une base de <strong>32 000+ entrées</strong> (<strong>8 000</strong> modèles de véhicules)</li>
 <li>Automatisation de la classification selon des critères métier spécifiques</li>
 </ul>
 <div class="exp-tags">
