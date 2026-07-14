@@ -864,7 +864,7 @@ st.markdown("""
 <span class="stack-tag">SQL</span>
 <span class="stack-tag">Python</span>
 </div>
-<div class="project-live">Portfolio en ligne</div>
+<div class="project-live">Live en production</div>
 </a>
 
 <div class="project-card">
