@@ -598,7 +598,6 @@ st.markdown("""
         <a href="https://github.com/Ssoumano" class="btn-secondary">⚙️ GitHub</a>
     </div>
 
-    <!-- ANCHORING BIAS : stats chiffrées en premier -->
     <div class="stats-bar">
         <div class="stat-item">
             <div class="stat-number">3 ans</div>
