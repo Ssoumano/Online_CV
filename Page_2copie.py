@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import glob
 from pathlib import Path
 
 # ── PHOTO DE PROFIL ─────────────────────────────────────────────────────────
@@ -8,12 +9,26 @@ def get_base64_image(path: str) -> str:
     data = Path(path).read_bytes()
     return base64.b64encode(data).decode()
 
-# Place ta photo dans un dossier "assets" à côté de ce script (assets/seydou.jpg)
-PHOTO_PATH = "assets/seydou.jpg"
-try:
-    photo_b64 = get_base64_image(PHOTO_PATH)
-except FileNotFoundError:
+def find_photo() -> str | None:
+    """Cherche la photo dans assets/, peu importe la casse ou l'extension."""
+    if not Path("assets").is_dir():
+        return None
+    for ext in ("jpg", "jpeg", "png", "JPG", "JPEG", "PNG"):
+        matches = glob.glob(f"assets/seydou.{ext}") + glob.glob(f"assets/Seydou.{ext}")
+        if matches:
+            return matches[0]
+    return None
+
+photo_path = find_photo()
+if photo_path:
+    photo_b64 = get_base64_image(photo_path)
+else:
     photo_b64 = ""
+    # Debug temporaire : affiche ce que Streamlit voit vraiment sur le serveur
+    if Path("assets").is_dir():
+        st.warning(f"⚠️ Dossier assets/ trouvé mais photo introuvable. Fichiers présents : {list(Path('assets').iterdir())}")
+    else:
+        st.warning("⚠️ Dossier assets/ introuvable à la racine du repo.")
 
 # ── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
