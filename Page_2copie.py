@@ -782,7 +782,7 @@ st.markdown("""
 <div class="exp-period">10/2022 – 05/2024</div>
 </div>
 <ul class="exp-bullets">
-<li>Analyse de performances commerciales sur <strong>6 000+</strong> clients dans <strong>4 pays</strong> via SQL et Python</li>
+<li>Analyse de performances commerciales sur <strong>6 000+</strong> produits dans <strong>4 pays</strong> via SQL et Python</li>
 <li>Modèle de segmentation clients → <strong>+18% de clients réactivés en 3 mois</strong></li>
 <li>Dashboards automatisés (QlikView, Power BI, Excel VBA) utilisés comme référence par <strong>3 équipes</strong> sur <strong>4 pays</strong></li>
 <li><strong>91% de taux de digitalisation atteint</strong> grâce aux analyses et recommandations data</li>
