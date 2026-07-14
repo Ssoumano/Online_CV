@@ -597,26 +597,28 @@ st.markdown("""
         <a href="https://linkedin.com/in/seydou-soumano" class="btn-secondary">🔗 LinkedIn</a>
         <a href="https://github.com/Ssoumano" class="btn-secondary">⚙️ GitHub</a>
     </div>
-
-    <div class="stats-bar">
-        <div class="stat-item">
-            <div class="stat-number">3 ans</div>
-            <div class="stat-label">Expérience data</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">98%</div>
-            <div class="stat-label">Anomalies corrigées</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">+18%</div>
-            <div class="stat-label">Clients réactivés</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">GCP</div>
-            <div class="stat-label">Certifié ACE · 2026</div>
-        </div>
-    </div>
 </section>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="stats-bar">
+    <div class="stat-item">
+        <div class="stat-number">3 ans</div>
+        <div class="stat-label">Expérience data</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">98%</div>
+        <div class="stat-label">Anomalies corrigées</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">+18%</div>
+        <div class="stat-label">Clients réactivés</div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">GCP</div>
+        <div class="stat-label">Certifié ACE · 2026</div>
+    </div>
+</div>
 """, unsafe_allow_html=True)
 
 
