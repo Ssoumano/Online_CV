@@ -346,11 +346,11 @@ with col_lang:
     st.markdown("<div style='padding-top:1.5rem; display:flex; gap:0.4rem;'>", unsafe_allow_html=True)
     c1, c2 = st.columns(2)
     with c1:
-        if st.button("🇫🇷", help="Français", use_container_width=True):
+        if st.button("FR", help="Français", use_container_width=True):
             st.session_state.lang = "fr"
             st.rerun()
     with c2:
-        if st.button("🇬🇧", help="English", use_container_width=True):
+        if st.button("EN", help="English", use_container_width=True):
             st.session_state.lang = "en"
             st.rerun()
 
