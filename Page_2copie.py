@@ -427,47 +427,55 @@ st.markdown(f"""
     <div class="section-eyebrow">{T['exp_eyebrow']}</div>
     <h2 class="section-title">{T['exp_title']}</h2>
     <p class="section-sub">{T['exp_sub']}</p>
-
-    <div class="exp-card">
-        <div class="exp-header">
-            <div><div class="exp-role">{T['exp1_role']}</div><div class="exp-company">{T['exp1_company']}</div></div>
-            <div class="exp-period">{T['exp1_period']}</div>
-        </div>
-        <ul class="exp-bullets">
-            <li>{T['exp1_b1']}</li><li>{T['exp1_b2']}</li><li>{T['exp1_b3']}</li><li>{T['exp1_b4']}</li><li>{T['exp1_b5']}</li>
-        </ul>
-        <div class="exp-tags"><span class="exp-tag">SQL</span><span class="exp-tag">Python</span><span class="exp-tag">Power BI</span><span class="exp-tag">SAP SuccessFactors</span><span class="exp-tag">Agile</span><span class="exp-tag">Data Quality</span></div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-header">
-            <div><div class="exp-role">{T['exp2_role']}</div><div class="exp-company">{T['exp2_company']}</div></div>
-            <div class="exp-period">{T['exp2_period']}</div>
-        </div>
-        <ul class="exp-bullets">
-            <li>{T['exp2_b1']}</li><li>{T['exp2_b2']}</li><li>{T['exp2_b3']}</li><li>{T['exp2_b4']}</li><li>{T['exp2_b5']}</li>
-        </ul>
-        <div class="exp-tags"><span class="exp-tag">SQL</span><span class="exp-tag">Python</span><span class="exp-tag">QlikView</span><span class="exp-tag">Power BI</span><span class="exp-tag">Excel VBA</span><span class="exp-tag">Segmentation</span></div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-header">
-            <div><div class="exp-role">{T['exp3_role']}</div><div class="exp-company">{T['exp3_company']}</div></div>
-            <div class="exp-period">{T['exp3_period']}</div>
-        </div>
-        <ul class="exp-bullets"><li>{T['exp3_b1']}</li><li>{T['exp3_b2']}</li></ul>
-        <div class="exp-tags"><span class="exp-tag">Python</span><span class="exp-tag">Data Quality</span></div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-header">
-            <div><div class="exp-role">{T['exp4_role']}</div><div class="exp-company">{T['exp4_company']}</div></div>
-            <div class="exp-period">{T['exp4_period']}</div>
-        </div>
-        <ul class="exp-bullets"><li>{T['exp4_b1']}</li><li>{T['exp4_b2']}</li></ul>
-        <div class="exp-tags"><span class="exp-tag">Reporting</span><span class="exp-tag">Excel</span></div>
-    </div>
 </section>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="exp-card">
+    <div class="exp-header">
+        <div><div class="exp-role">{T['exp1_role']}</div><div class="exp-company">{T['exp1_company']}</div></div>
+        <div class="exp-period">{T['exp1_period']}</div>
+    </div>
+    <ul class="exp-bullets">
+        <li>{T['exp1_b1']}</li><li>{T['exp1_b2']}</li><li>{T['exp1_b3']}</li><li>{T['exp1_b4']}</li><li>{T['exp1_b5']}</li>
+    </ul>
+    <div class="exp-tags"><span class="exp-tag">SQL</span><span class="exp-tag">Python</span><span class="exp-tag">Power BI</span><span class="exp-tag">SAP SuccessFactors</span><span class="exp-tag">Agile</span><span class="exp-tag">Data Quality</span></div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="exp-card">
+    <div class="exp-header">
+        <div><div class="exp-role">{T['exp2_role']}</div><div class="exp-company">{T['exp2_company']}</div></div>
+        <div class="exp-period">{T['exp2_period']}</div>
+    </div>
+    <ul class="exp-bullets">
+        <li>{T['exp2_b1']}</li><li>{T['exp2_b2']}</li><li>{T['exp2_b3']}</li><li>{T['exp2_b4']}</li><li>{T['exp2_b5']}</li>
+    </ul>
+    <div class="exp-tags"><span class="exp-tag">SQL</span><span class="exp-tag">Python</span><span class="exp-tag">QlikView</span><span class="exp-tag">Power BI</span><span class="exp-tag">Excel VBA</span><span class="exp-tag">Segmentation</span></div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="exp-card">
+    <div class="exp-header">
+        <div><div class="exp-role">{T['exp3_role']}</div><div class="exp-company">{T['exp3_company']}</div></div>
+        <div class="exp-period">{T['exp3_period']}</div>
+    </div>
+    <ul class="exp-bullets"><li>{T['exp3_b1']}</li><li>{T['exp3_b2']}</li></ul>
+    <div class="exp-tags"><span class="exp-tag">Python</span><span class="exp-tag">Data Quality</span></div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="exp-card">
+    <div class="exp-header">
+        <div><div class="exp-role">{T['exp4_role']}</div><div class="exp-company">{T['exp4_company']}</div></div>
+        <div class="exp-period">{T['exp4_period']}</div>
+    </div>
+    <ul class="exp-bullets"><li>{T['exp4_b1']}</li><li>{T['exp4_b2']}</li></ul>
+    <div class="exp-tags"><span class="exp-tag">Reporting</span><span class="exp-tag">Excel</span></div>
+</div>
 """, unsafe_allow_html=True)
 
 # ── PROJETS ──────────────────────────────────────────────────────────────────
